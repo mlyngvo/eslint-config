@@ -1,3 +1,2 @@
-const react = require("./react");
-
-module.exports = react;
+module.exports = {
+};
