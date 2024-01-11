@@ -1,14 +1,14 @@
 {
   "name": "@mlyngvo/eslint-config",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "General ESLint configuration for TypeScript.",
-  "main": "preset/react.js",
+  "main": "preset/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlyngvo/eslint-config.git"
   },
   "files": [
-    "preset/*"
+    "preset/react/index.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

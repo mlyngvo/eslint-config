@@ -1,8 +1,9 @@
 module.exports = {
     extends: [
-        './preset/react'
+        './index'
     ],
     parserOptions: {
+        ecmaVersion: "latest",
         tsconfigRootDir: __dirname
     },
 }
