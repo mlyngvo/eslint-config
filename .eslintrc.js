@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        './index'
+        './preset/index'
     ],
     parserOptions: {
         ecmaVersion: "latest",
