@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preset/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preset/react/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/react.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/preset/react" />
     </key>
   </component>
@@ -76,7 +76,7 @@
       <workItem from="1704987175900" duration="1814000" />
       <workItem from="1704989098599" duration="243000" />
       <workItem from="1704989345483" duration="276000" />
-      <workItem from="1704989710979" duration="315000" />
+      <workItem from="1704989710979" duration="1202000" />
     </task>
     <servers />
   </component>
