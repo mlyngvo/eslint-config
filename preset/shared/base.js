@@ -14,10 +14,5 @@ module.exports = {
         '*.crt',
         '*.key',
         'Dockerfile',
-    ],
-    env: {
-        browser: true,
-        node: true,
-        esnext: true
-    }
+    ]
 }

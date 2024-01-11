@@ -1,5 +1,5 @@
 const base = require('./shared/base');
-const {builder} = require("./builder");
+const builder = require("./builder");
 
 const react = {
     ...base,
