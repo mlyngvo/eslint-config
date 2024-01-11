@@ -1,6 +1,6 @@
 {
   "name": "@mlyngvo/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "General ESLint configuration for TypeScript.",
   "main": "preset/react.js",
   "repository": {
@@ -13,9 +13,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ly Nguyen <contact@minhlynguyenvo.com>",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
@@ -28,7 +29,6 @@
     "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
   "publishConfig": {
