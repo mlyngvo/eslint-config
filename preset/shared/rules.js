@@ -6,10 +6,11 @@ module.exports = {
     // Readability
     'no-use-before-define': [
         'error',
-        // { functions: false, classes: true, variables: true },
+        { functions: false, classes: true, variables: true },
     ],
 
     // No JS bananas
+    'no-console': ['warn', { allow: ['error', 'warn', 'info'] }],
     '@typescript-eslint/strict-boolean-expressions': 'error',
     '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-dynamic-delete': 'warn',
