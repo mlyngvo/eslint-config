@@ -59,6 +59,9 @@ const react = {
                 // We don't need to import React in every file
                 'react/react-in-jsx-scope': 'off',
                 'react/jsx-uses-react': 'off',
+                'react/jsx-props-no-spreading': 'off',
+                'react/static-property-placement': 'off',
+                'react/no-array-index-key': 'off',
             },
         },
     ]
