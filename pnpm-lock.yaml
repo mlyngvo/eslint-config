@@ -17,6 +17,9 @@ dependencies:
   eslint-config-airbnb:
     specifier: ^19.0.4
     version: 19.0.4(eslint-plugin-import@2.29.1)(eslint-plugin-jsx-a11y@6.8.0)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)
+  eslint-config-airbnb-base:
+    specifier: ^15.0.0
+    version: 15.0.0(eslint-plugin-import@2.29.1)(eslint@8.56.0)
   eslint-config-airbnb-typescript:
     specifier: ^17.1.0
     version: 17.1.0(@typescript-eslint/eslint-plugin@6.18.1)(@typescript-eslint/parser@6.18.1)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
@@ -44,11 +47,6 @@ dependencies:
   eslint-plugin-unicorn:
     specifier: ^50.0.1
     version: 50.0.1(eslint@8.56.0)
-
-devDependencies:
-  typescript:
-    specifier: ^5.3.3
-    version: 5.3.3
 
 packages:
 
@@ -2455,6 +2453,7 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: false
 
   /unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
