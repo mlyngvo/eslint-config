@@ -20,4 +20,13 @@ module.exports = {
 }
 ```
 
+#### Node.js
+```js
+module.exports = {
+    extends: [
+        '@mlyngvo/eslint-config/node'
+    ],
+}
+```
+
 
