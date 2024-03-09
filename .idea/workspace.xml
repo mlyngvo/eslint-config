@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -88,7 +89,7 @@
       <workItem from="1705000520095" duration="48000" />
       <workItem from="1705000624175" duration="3861000" />
       <workItem from="1705048492950" duration="3120000" />
-      <workItem from="1706082641251" duration="1001000" />
+      <workItem from="1706082641251" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />

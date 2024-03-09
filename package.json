@@ -1,6 +1,5 @@
 {
   "name": "@mlyngvo/eslint-config",
-  "version": "1.0.3",
   "description": "General ESLint configuration for TypeScript.",
   "main": "preset/index.js",
   "repository": {

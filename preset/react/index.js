@@ -26,6 +26,12 @@ const react = {
                     'error',
                     { functions: false, classes: true, variables: true, typedefs: true },
                 ],
+                "@typescript-eslint/no-misused-promises": [
+                    "error",
+                    {
+                        "checksVoidReturn": false
+                    }
+                ]
             },
         },
         {
