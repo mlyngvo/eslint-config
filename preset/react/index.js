@@ -68,6 +68,7 @@ const react = {
                 'react/jsx-props-no-spreading': 'off',
                 'react/static-property-placement': 'off',
                 'react/no-array-index-key': 'off',
+                'react/jsx-no-bind': 'off',
             },
         },
     ]
