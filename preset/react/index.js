@@ -69,6 +69,7 @@ const react = {
                 'react/static-property-placement': 'off',
                 'react/no-array-index-key': 'off',
                 'react/jsx-no-bind': 'off',
+                'react/require-default-props': 'off',
             },
         },
     ]
