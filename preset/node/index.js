@@ -14,7 +14,7 @@ const node = {
             },
             plugins: ['simple-import-sort'],
             extends: [
-                'standard-with-typescript',
+                'love',
                 'plugin:unicorn/recommended',
                 'airbnb',
                 'airbnb-typescript/base',
@@ -23,6 +23,7 @@ const node = {
             rules: {
                 // Allow most functions to rely on type inference.
                 // If the function is exported, then `@typescript-eslint/explicit-module-boundary-types` will ensure it's typed.
+                // Disable as it might be considered as too strict.
                 '@typescript-eslint/explicit-function-return-type': 'off',
                 '@typescript-eslint/no-use-before-define': [
                     'error',

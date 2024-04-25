@@ -14,7 +14,7 @@ const react = {
             },
             plugins: ['simple-import-sort'],
             extends: [
-                'standard-with-typescript',
+                'love',
                 'plugin:unicorn/recommended',
                 'prettier',
             ],
