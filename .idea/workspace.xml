@@ -84,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -116,6 +116,7 @@
       <workItem from="1714035513677" duration="5680000" />
       <workItem from="1714120765260" duration="598000" />
       <workItem from="1714386964861" duration="1191000" />
+      <workItem from="1725891014084" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
