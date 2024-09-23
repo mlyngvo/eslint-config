@@ -4,6 +4,6 @@ module.exports = {
     ...node,
     extends: [
         'airbnb',
-        'airbnb-typescript/base',
+        '@mlyngvo/eslint-config-airbnb-typescript/base',
     ],
 };

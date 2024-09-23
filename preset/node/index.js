@@ -17,7 +17,7 @@ const node = {
                 'love',
                 'plugin:unicorn/recommended',
                 'airbnb',
-                'airbnb-typescript/base',
+                '@mlyngvo/eslint-config-airbnb-typescript/base',
                 'prettier',
             ],
             rules: {

@@ -4,6 +4,6 @@ module.exports = {
     ...react,
     extends: [
         'airbnb',
-        'airbnb-typescript',
+        '@mlyngvo/eslint-config-airbnb-typescript',
     ],
 };
