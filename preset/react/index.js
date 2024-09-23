@@ -3,6 +3,7 @@ const builder = require("../builder");
 
 const react = {
     ...base,
+
     overrides: [
         {
             files: ['**/*.ts'],
