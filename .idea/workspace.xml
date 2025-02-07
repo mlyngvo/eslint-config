@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: update rules">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: update rules" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +117,7 @@
       <workItem from="1725891014084" duration="706000" />
       <workItem from="1726066299240" duration="2152000" />
       <workItem from="1727087367492" duration="197000" />
-      <workItem from="1727087852515" duration="7940000" />
+      <workItem from="1727087852515" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
