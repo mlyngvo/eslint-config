@@ -9,20 +9,22 @@
   "author": "Ly Nguyen <contact@minhlynguyenvo.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@mlyngvo/eslint-config-airbnb-typescript": "^19.0.3",
-    "@typescript-eslint/eslint-plugin": "7.0.1",
-    "@typescript-eslint/parser": "7.0.0",
-    "eslint": "^8.57.0",
+    "@mlyngvo/eslint-config-airbnb-typescript": "^19.0.5",
+    "@typescript-eslint/eslint-plugin": "8.23.0",
+    "@typescript-eslint/parser": "8.23.0",
+    "eslint": "^9.19.0",
+    "@eslint/js": "^9.19.0",
+    "@eslint/eslintrc": "^3.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-love": "46.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-react": "^7.35.2",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-config-love": "118.0.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-import-resolver-typescript": "^3.7.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unicorn": "^55.0.0"
+    "eslint-plugin-unicorn": "^56.0.1"
   },
   "publishConfig": {
     "access": "public"

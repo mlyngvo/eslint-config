@@ -28,12 +28,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mlyngvo/eslint-config.git&quot;,
-    &quot;accountId&quot;: &quot;7c11b14b-3bff-4859-b6dc-7f2cdefeba40&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mlyngvo/eslint-config.git",
+    "accountId": "83a90d5e-1c21-4376-9ddd-7722646c60c0"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,10 +53,11 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "18.20.4",
-    "javascript.nodejs.core.library.typings.version": "18.19.50",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.13.1",
     "last_opened_file_path": "/Users/mlyngvo/Documents/Workspace/mlyngvo/eslint-config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -82,7 +83,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -118,6 +119,7 @@
       <workItem from="1726066299240" duration="2152000" />
       <workItem from="1727087367492" duration="197000" />
       <workItem from="1727087852515" duration="8331000" />
+      <workItem from="1738920228531" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
