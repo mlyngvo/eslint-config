@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: update rules" />
+    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: update rules">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/mlyngvo/eslint-config.git",
-    "accountId": "83a90d5e-1c21-4376-9ddd-7722646c60c0"
+    "accountId": "7c11b14b-3bff-4859-b6dc-7f2cdefeba40"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -53,11 +57,12 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "22.11.0",
-    "javascript.nodejs.core.library.typings.version": "22.13.1",
+    "javascript.nodejs.core.library.configured.version": "22.17.0",
+    "javascript.nodejs.core.library.typings.version": "22.17.2",
     "last_opened_file_path": "/Users/mlyngvo/Documents/Workspace/mlyngvo/eslint-config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -83,7 +88,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
       </set>
     </attachedChunks>
   </component>
@@ -120,6 +125,8 @@
       <workItem from="1727087367492" duration="197000" />
       <workItem from="1727087852515" duration="8331000" />
       <workItem from="1738920228531" duration="326000" />
+      <workItem from="1738920821172" duration="1593000" />
+      <workItem from="1759494597773" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
