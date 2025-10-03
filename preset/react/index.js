@@ -19,19 +19,6 @@ const react = {
                 'prettier',
             ],
             rules: {
-                // Allow most functions to rely on type inference.
-                // If the function is exported, then `@typescript-eslint/explicit-module-boundary-types` will ensure it's typed.
-                '@typescript-eslint/explicit-function-return-type': 'off',
-                '@typescript-eslint/no-use-before-define': [
-                    'error',
-                    { functions: false, classes: true, variables: true, typedefs: true },
-                ],
-                "@typescript-eslint/no-misused-promises": [
-                    "error",
-                    {
-                        "checksVoidReturn": false
-                    }
-                ]
             },
         },
         {
@@ -55,14 +42,6 @@ const react = {
                 'prettier',
             ],
             rules: {
-                // Allow most functions to rely on type inference.
-                // If the function is exported, then `@typescript-eslint/explicit-module-boundary-types` will ensure it's typed.
-                '@typescript-eslint/explicit-function-return-type': 'off',
-                '@typescript-eslint/no-use-before-define': [
-                    'error',
-                    { functions: false, classes: true, variables: true, typedefs: true },
-                ],
-                // We don't need to import React in every file
                 'react/react-in-jsx-scope': 'off',
                 'react/jsx-uses-react': 'off',
                 'react/jsx-props-no-spreading': 'off',

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="fix: import issue">
-      <change beforePath="$PROJECT_DIR$/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node.js" afterDir="false" />
+    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="fix: remove unicorn left-over">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preset/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/node/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preset/react/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/react/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preset/shared/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/shared/rules.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,7 @@
       <workItem from="1738920228531" duration="326000" />
       <workItem from="1738920821172" duration="1593000" />
       <workItem from="1759494597773" duration="270000" />
-      <workItem from="1759498747178" duration="2230000" />
+      <workItem from="1759498747178" duration="2833000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759501279245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix: remove unicorn left-over">
+      <option name="closed" value="true" />
+      <created>1759501533594</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759501533594</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="chore: idea" />
     <MESSAGE value="fix: remove unicorn configs" />
     <MESSAGE value="fix: import issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: import issue" />
+    <MESSAGE value="fix: remove unicorn left-over" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove unicorn left-over" />
   </component>
 </project>
