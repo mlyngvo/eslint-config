@@ -48,10 +48,11 @@ const react = {
             },
             plugins: ['simple-import-sort'],
             extends: [
+                'alloy',
+                'alloy/react',
                 'plugin:react/recommended',
                 'plugin:react-hooks/recommended',
                 'plugin:jsx-a11y/recommended',
-                eslintPluginUnicorn.configs.recommended,
                 'prettier',
             ],
             rules: {
