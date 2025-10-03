@@ -14,7 +14,7 @@ const node = {
             },
             plugins: ['simple-import-sort'],
             extends: [
-                'plugin:unicorn/recommended',
+                'alloy',
                 'prettier',
             ],
             rules: {

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: remove love config">
+    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="fix: import issue">
+      <change beforePath="$PROJECT_DIR$/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preset/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/node/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preset/react/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/preset/react/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +128,7 @@
       <workItem from="1738920228531" duration="326000" />
       <workItem from="1738920821172" duration="1593000" />
       <workItem from="1759494597773" duration="270000" />
-      <workItem from="1759498747178" duration="1680000" />
+      <workItem from="1759498747178" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="chore: update rules">
       <option name="closed" value="true" />
@@ -159,7 +162,39 @@
       <option name="project" value="LOCAL" />
       <updated>1759500541025</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: unicorn recommend plugin">
+      <option name="closed" value="true" />
+      <created>1759500979972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759500979972</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: idea">
+      <option name="closed" value="true" />
+      <created>1759500991938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759500991938</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: remove unicorn configs">
+      <option name="closed" value="true" />
+      <created>1759501145704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759501145704</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: import issue">
+      <option name="closed" value="true" />
+      <created>1759501279245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759501279245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +205,10 @@
     <MESSAGE value="chore: use alloy" />
     <MESSAGE value="chore: remove xo config" />
     <MESSAGE value="chore: remove love config" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: remove love config" />
+    <MESSAGE value="fix: unicorn recommend plugin" />
+    <MESSAGE value="chore: idea" />
+    <MESSAGE value="fix: remove unicorn configs" />
+    <MESSAGE value="fix: import issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: import issue" />
   </component>
 </project>
