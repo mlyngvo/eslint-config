@@ -14,10 +14,7 @@ const node = {
             },
             plugins: ['simple-import-sort'],
             extends: [
-                'love',
                 'plugin:unicorn/recommended',
-                'airbnb',
-                '@mlyngvo/eslint-config-airbnb-typescript/base',
                 'prettier',
             ],
             rules: {
