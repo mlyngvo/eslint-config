@@ -1,3 +1,4 @@
+const eslintPluginUnicorn = require('eslint-plugin-unicorn');
 const base = require('../shared/base');
 const builder = require("../builder");
 
@@ -47,11 +48,10 @@ const react = {
             },
             plugins: ['simple-import-sort'],
             extends: [
-                'love',
                 'plugin:react/recommended',
                 'plugin:react-hooks/recommended',
                 'plugin:jsx-a11y/recommended',
-                'plugin:unicorn/recommended',
+                eslintPluginUnicorn.configs.recommended,
                 'prettier',
             ],
             rules: {
