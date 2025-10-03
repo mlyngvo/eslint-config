@@ -1,4 +1,3 @@
-const eslintPluginUnicorn = require('eslint-plugin-unicorn');
 const base = require('../shared/base');
 const builder = require("../builder");
 
