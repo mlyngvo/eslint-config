@@ -1,39 +1,62 @@
 # @mlyngvo/eslint-config
 
-General ESLint configuration for TypeScript projects.
+ESLint flat configuration for TypeScript projects.
 
 ## Installation
 
 ```bash
-npm install --save-dev @mlyngvo/eslint-config
+npm install --save-dev @mlyngvo/eslint-config eslint typescript
 ```
 
 ## Usage
 
+This package uses ESLint's [flat config](https://eslint.org/docs/latest/use/configure/configuration-files) format.
+
 ### Node.js / TypeScript projects
 
+Create an `eslint.config.js` (or `eslint.config.mjs`) file:
+
 ```js
-// .eslintrc.js
-module.exports = {
-    extends: ['@mlyngvo/eslint-config/preset/node'],
-};
+const nodeConfig = require('@mlyngvo/eslint-config/node');
+
+module.exports = [
+    ...nodeConfig,
+    // Your custom config here
+];
+```
+
+Or using ES modules:
+
+```js
+import nodeConfig from '@mlyngvo/eslint-config/node';
+
+export default [
+    ...nodeConfig,
+    // Your custom config here
+];
 ```
 
 ### React / TypeScript projects
 
 ```js
-// .eslintrc.js
-module.exports = {
-    extends: ['@mlyngvo/eslint-config/preset/react'],
-};
+const reactConfig = require('@mlyngvo/eslint-config/react');
+
+module.exports = [
+    ...reactConfig,
+    // Your custom config here
+];
 ```
 
 ## Features
 
-- Built on [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy) and [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-- TypeScript support via `@typescript-eslint`
+- ESLint 9 flat config format
+- TypeScript support via `typescript-eslint`
 - Import sorting via `eslint-plugin-simple-import-sort`
-- React preset includes `react-hooks` and `jsx-a11y` plugins
+- Prettier compatibility (formatting rules disabled)
+- React preset includes:
+  - `eslint-plugin-react` with recommended rules
+  - `eslint-plugin-react-hooks` for hooks rules
+  - `eslint-plugin-jsx-a11y` for accessibility
 
 ## Key Rules
 
@@ -42,6 +65,24 @@ module.exports = {
 - `@typescript-eslint/strict-boolean-expressions` - no implicit boolean coercion
 - `@typescript-eslint/no-floating-promises` - requires handling promises
 - `@typescript-eslint/no-non-null-assertion` - disallows `!` assertions
+
+## Migration from v1.x
+
+Version 2.0 switches to ESLint flat config. Update your config file:
+
+**Before (v1.x - `.eslintrc.js`):**
+```js
+module.exports = {
+    extends: ['@mlyngvo/eslint-config/preset/node'],
+};
+```
+
+**After (v2.x - `eslint.config.js`):**
+```js
+const nodeConfig = require('@mlyngvo/eslint-config/node');
+
+module.exports = [...nodeConfig];
+```
 
 ## License
 

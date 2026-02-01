@@ -1,8 +1,14 @@
 {
   "name": "@mlyngvo/eslint-config",
-  "version": "1.0.31",
-  "description": "General ESLint configuration for TypeScript.",
+  "version": "2.0.0",
+  "description": "General ESLint flat configuration for TypeScript.",
   "main": "preset/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./preset/index.js",
+    "./node": "./preset/node/index.js",
+    "./react": "./preset/react/index.js"
+  },
   "scripts": {
     "test": "node --test ./tests/builder.test.js"
   },
@@ -16,22 +22,21 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/core": "^7.28.4",
-    "@babel/eslint-parser": "^7.28.4",
-    "@babel/preset-react": "^7.27.1",
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.36.0",
-    "@typescript-eslint/eslint-plugin": "^8.45.0",
-    "@typescript-eslint/parser": "^8.45.0",
-    "eslint": "^9.36.0",
-    "eslint-config-alloy": "^5.1.2",
+    "@eslint/js": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^6.1.0",
-    "eslint-plugin-simple-import-sort": "^12.1.1"
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^16.2.0",
+    "typescript-eslint": "^8.54.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "typescript": "^5.7.3"
   },
   "peerDependencies": {
-    "eslint": "^9.x.x"
+    "eslint": "^9.x.x",
+    "typescript": "^5.x.x"
   }
 }
