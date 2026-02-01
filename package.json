@@ -1,6 +1,7 @@
 {
   "name": "@mlyngvo/eslint-config",
   "version": "2.0.0",
+  "packageManager": "pnpm@10.20.0",
   "description": "General ESLint flat configuration for TypeScript.",
   "main": "preset/index.js",
   "type": "commonjs",
