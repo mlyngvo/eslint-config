@@ -3,6 +3,9 @@
   "version": "1.0.31",
   "description": "General ESLint configuration for TypeScript.",
   "main": "preset/index.js",
+  "scripts": {
+    "test": "node --test ./tests/builder.test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlyngvo/eslint-config.git"
