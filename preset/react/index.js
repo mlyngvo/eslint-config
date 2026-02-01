@@ -1,25 +1,11 @@
 const base = require('../shared/base');
+const typescript = require('../shared/typescript');
 const builder = require("../builder");
 
 const react = {
     ...base,
     overrides: [
-        {
-            files: ['**/*.ts'],
-            parser: '@typescript-eslint/parser',
-            parserOptions: {
-                sourceType: 'module',
-                allowAutomaticSingleRunInference: true,
-                project: true,
-            },
-            plugins: ['simple-import-sort'],
-            extends: [
-                'alloy',
-                'prettier',
-            ],
-            rules: {
-            },
-        },
+        { ...typescript },
         {
             files: ['**/*.tsx'],
             parser: '@typescript-eslint/parser',
