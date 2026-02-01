@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="fix: improve rules" />
+    <list default="true" id="0b2e5777-fbe6-46f5-8ee2-081154868ec6" name="Changes" comment="chore: idea">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -232,11 +233,30 @@
       <option name="project" value="LOCAL" />
       <updated>1759502133980</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="chore: idea">
+      <option name="closed" value="true" />
+      <created>1769954281806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769954281806</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: update rules" />
@@ -244,11 +264,11 @@
     <MESSAGE value="chore: remove xo config" />
     <MESSAGE value="chore: remove love config" />
     <MESSAGE value="fix: unicorn recommend plugin" />
-    <MESSAGE value="chore: idea" />
     <MESSAGE value="fix: remove unicorn configs" />
     <MESSAGE value="fix: import issue" />
     <MESSAGE value="fix: remove unicorn left-over" />
     <MESSAGE value="fix: improve rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: improve rules" />
+    <MESSAGE value="chore: idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: idea" />
   </component>
 </project>

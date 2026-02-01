@@ -31,7 +31,7 @@ jobs:
                   registry-url: https://npm.pkg.github.com/
                   scope: '@mlyngvo'
             - run: |
-                npm version ${GITHUB_REF#refs/*/} --no-git-tag-version
+                npm version ${{ github.ref_name }} --no-git-tag-version
                 npm publish
               env:
                   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
